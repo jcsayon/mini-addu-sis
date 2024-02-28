@@ -3,7 +3,36 @@ body, h1, table, th, td, p, strong, ul, li {
   padding: 1;
   font-family: Arial, sans-serif;
 }
+.nav_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #007bff; /* Blue color */
+}
 
+.nav_links li {
+  float: left;
+}
+
+.nav_links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.above{
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
 .grade-report {
   width: 100%; /* Adjusted to full width */
   margin: 0 auto; /* Removed top and bottom margin */
